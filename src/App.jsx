@@ -325,12 +325,18 @@ export default function App() {
               onChange={(e) => setTimeTotal(Number(e.target.value))}
               className="select"
             >
-              <option value={60}>01:00</option>
-              <option value={90}>01:30</option>
-              <option value={120}>02:00</option>
               <option value={180}>03:00</option>
               <option value={240}>04:00</option>
               <option value={300}>05:00</option>
+
+              <option value={300}>05:00</option>
+              <option value={600}>10:00</option>
+              <option value={900}>15:00</option>
+              <option value={1200}>20:00</option>
+              <option value={1500}>25:00</option>
+              <option value={1800}>30:00</option>
+              <option value={2400}>40:00</option>
+              <option value={2700}>45:00</option>
             </select>
           </label>
 
